@@ -1,0 +1,1023 @@
+
+
+<!DOCTYPE html>
+<html lang="en"><head>
+
+
+        <link rel="shortcut icon" href="https://www.inovalon.com/wp-content/uploads/2022/05/icon.svg">
+     
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+        <title>Inovalon</title>
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		
+     	
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      	
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+		
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      	
+      
+      	
+        
+        
+      	
+        
+        
+        <meta name="robots" content="index, nofollow"><meta name="keywords" content="Inovalon Webinar"><meta name="description" content="Inovalon Webinar">
+      
+        <!-- Custom fonts for this template -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&amp;family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" rel="stylesheet">
+        
+        <!-- Main Styles -->
+      	<style>
+            * {
+                transition: .3s ease all;
+            }
+          	::placeholder {
+              font-size:80%;
+              text-align:center;
+            }
+            body {
+                font-family: 'Source Sans Pro', sans-serif;
+                min-width: 200px;
+            }
+            h1,h2,h3 {
+                font-weight: bold;
+              	line-height: 1.2;
+            }
+            b,
+            strong,
+            #overview-2 .card h3 {
+                font-weight:600;
+            }
+            #hero .text b,
+            #hero .text strong {
+                font-weight: bold;
+            }
+            h1 {
+                font-size: calc(1.375rem + 2.3vw);
+            }
+            h2 {
+                font-size: calc(1.325rem + 1.5vw);
+            }
+            #video h2,
+            #testimonial-1 h2, 
+            #testimonial-2 h2 {
+                font-size: calc(1.3rem + .76vw);
+            }
+
+            #hero .text,
+            .cta-text {
+                font-weight:600;
+            }
+            .cta-text p {
+                margin: 0;
+            }
+            .webinar {
+                font-family: 'Overpass', sans-serif;
+                font-weight: bold;
+                display: inline-block;
+                padding: .75rem 1.25rem .5rem;
+                border-radius: 0 0 3px 3px;
+                letter-spacing: .05em;
+                vertical-align: text-top;
+                line-height: 1;
+            }
+            .logo {
+                width: 70%;
+                max-width:350px;
+            }
+            
+            .logo a {
+                display: block;
+            }
+            .logo img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+
+            .form-wrapper {
+              	color: #ffffff;
+                background: #054173;
+                border-radius: 0 0 0 1.5rem;
+            }
+          	.form-wrapper {
+              font-size:1rem;
+            }
+            .card:hover {
+                transform: scale(1.01);
+                box-shadow: 0 3px 6px #0002;
+            }
+            .card {
+                transition: .1s ease transform;
+            }
+            .btn p, .webinar p {
+                margin:auto !important;
+            }
+            .btn a {
+                color:inherit;
+                text-decoration: inherit;
+            }
+            .btn-1,
+            .btn-2,
+            .btn-3 {
+                --bs-btn-bg: #003D79;
+              --bs-btn-color: #ffffff;
+                --bs-btn-hover-bg: #003D79;
+                --bs-btn-hover-color: #ffffff;
+                --bs-btn-font-size: 1.875rem;
+                --bs-btn-font-weight: bold;
+                --bs-btn-line-height: 1.4;
+                --bs-btn-padding-x: 0.75em;
+                --bs-btn-padding-y: 0.5em;
+                box-shadow: inset 0 -.3em 7px #00000016,inset 0 .3em 7px #fff1,0px 3.5px 3px #0005;
+                vertical-align: text-top;
+                transition: .3s ease outline-color;
+                outline: 3px dashed transparent;
+                outline-offset: 4px;
+                --bs-btn-active-color: var(--bs-btn-bg);
+                --bs-btn-active-border-color: #003D7966;
+            }
+            .btn-1:hover {
+                outline-color: #003D7966;
+            }
+            .btn-2 {
+                --bs-btn-bg: #4E84C4;
+                --bs-btn-color: #ffffff;
+                --bs-btn-hover-bg: #4E84C4;
+                --bs-btn-hover-color: #ffffff;
+                --bs-btn-font-size: 1.875rem;
+                --bs-btn-padding-y: 0.45em;
+                --bs-btn-padding-x: 1.25em;
+                box-shadow: inset 0 -.3em 7px #0000001f,inset 0 .3em 7px #ffffff1f;
+                --bs-btn-active-border-color: #4E84C466;
+                --bs-btn-border-radius:1rem;
+            }
+            .btn-3 {
+                --bs-btn-bg: #4E84C4;
+                --bs-btn-color: #ffffff;
+                --bs-btn-hover-bg: #4E84C4;
+                --bs-btn-hover-color: #ffffff;
+                --bs-btn-font-size: 1.875rem;
+                --bs-btn-padding-x: 1.25em;
+                --bs-btn-padding-y: 0.15em;
+                box-shadow: inset 0 -.3em 7px #0000001f,inset 0 .3em 7px #ffffff1f;
+                --bs-btn-active-border-color: #4E84C466;
+            }
+             .btn-2:hover {
+               outline-color:#4E84C466;
+             }
+             .btn-3:hover{
+                outline-color: #4E84C466;
+            }
+            .btn-1:focus-visible,
+            .btn-2:focus-visible,
+            .btn-3:focus-visible {
+                outline: 3px dashed var(--bs-btn-bg);
+                outline-offset: 4px;
+            }
+            #overview h2,
+          	#video h2,
+          	#presenters h2{
+                margin-bottom: 1.5rem;
+            }
+            #overview-1 .card {
+                max-width: 260px;
+            }
+            #overview-1 .card,
+            #overview-1 .card p {
+             font-size:14px;   
+            }
+            #overview-1 .card h3{
+             font-size:15px;   
+            }
+            #overview-1 .card img {
+                width:33%;
+                max-width: 120px;
+                margin: 1rem 0;
+              	height:auto;
+            }
+            .icon-wrapper {
+                width:33%;
+                flex-shrink: 0;
+                max-width:120px;
+            }
+          	.icon-wrapper img, .icon-wrapper svg {
+              width:100%;
+              height:auto;
+              display:block;
+            }
+            .clear-float::after {
+                display: block;
+                clear: both;
+                content: '';
+            }
+            
+            .video-wrapper {
+                position: relative;
+                padding-bottom: 56.25%;
+            }
+            .video-wrapper * {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .presenter-image img{
+                width:100%;
+                height:auto;
+            }
+            #presenters-1 .card .text,
+            #presenters-2 .card .text,
+            #presenters-3 .card .text,
+            #presenters-4 .card .text {
+                font-size:13px;
+            }
+
+            #presenters-2 .card,
+            #presenters-3 .card {
+                max-width: 620px;
+                margin: 0 auto;
+            }
+            .title h3 {
+                margin: 0;
+                line-height: 1;
+            }
+            .title p {
+                font-size: smaller;
+                margin: 0;
+            }
+            .title p sup {
+              position:static;
+              font-size:1em;
+            }
+            #testimonial-1,
+            #testimonial-2 {
+              background: linear-gradient(45deg,  #83AB55 0%, #003d79  100%);
+            }
+            
+            #testimonial-2 {
+                background:url('//046-EPG-279.mktoweb.com/rs/046-EPG-279/images/testimonial_bg_3.svg') 75% -10% / 145% 52% no-repeat, linear-gradient(45deg, #83AB55 0%, #003d79 100%) center/cover no-repeat;
+            }
+
+            #testimonial-1 .quote,
+            #testimonial-2 .quote {
+                font-size:1.5rem;
+            } 
+            .quote * {
+                display: inline;
+            }
+            .quote .closer,
+            .quote .opener {
+                display:block;
+                font-size: 2em;
+                line-height: 0;
+                font-weight: bold;
+                position: relative;
+                padding: .3em 0;
+            }
+
+            .quote .closer {
+                top:.35em;
+            }
+            .profile-image img {
+                display: inline-block;
+                border-radius: 50%;
+                object-fit: cover;
+                aspect-ratio: 1;
+                width: 100%;
+                max-width: 250px;
+              	height:auto;
+              	object-position:center;
+            }
+            
+            #footer .text a {
+                color:inherit;
+                text-decoration:underline;
+                text-decoration-color: transparent;
+            }
+            #footer .text a:hover {
+                color:inherit;
+                text-decoration-color: currentColor;
+            }
+            #footer .logo {
+                max-width:230px;
+            }
+            .curve {
+                top: -3rem;
+                left: 0;
+                right: 0;
+                height: 3.5rem;
+            }
+          	.spacer-top {
+              	height:0px;
+                background-color: #ffffff;
+            }
+            .spacer-bottom {
+                height:0px;
+                background-color: #ffffff;
+            }
+          	#overview . {
+              	display:none !important;
+            }
+            @media (min-width:768px) {
+                body {
+                    font-size: 1.25rem;
+                }
+                #testimonial-1 .quote {
+                    font-size:2rem;
+                }
+                
+                .quote .closer,
+                .quote .opener {
+                    position: relative;
+                    display: inline;
+                    top:.2em;
+                    padding:0;
+                }
+                .quote .closer {
+                    left:0.1em;
+                }
+                .quote .opener {
+                    margin-left: -.53em;
+                    left:-0.1em;
+                }
+                #testimonial-2 {
+                    background: url('//pages.inovalon.com/rs/322-GRX-456/images/testimonial_bg_3.svg') -27% top / 52% 85% no-repeat, linear-gradient(45deg, #83AB55 0%, #003d79 100%) center/cover no-repeat;
+                }
+            }
+            @media (min-width:992px) {
+                #presenters-4 .card .text {
+                    font-size:10px;
+                }
+                #testimonial-1 .quote {
+                    font-size:2.5rem;
+                }
+                #testimonial-2 {
+                    background: url('//pages.inovalon.com/rs/322-GRX-456/images/testimonial_bg_3.svg') top left / 36% 115% no-repeat, linear-gradient(45deg, #83AB55 0%, #003d79 100%) center/cover no-repeat;
+                }
+            }
+            @media(min-width:1200px) {
+                h1 {
+                    font-size: 3.125rem;
+                }
+                h2 {
+                    font-size: 2.5rem;
+                }
+                #video h2,
+                #testimonial-1 h2,
+                #testimonial-2 h2 {
+                    font-size:1.875rem;
+                }
+                .webinar {
+                    font-size: 1.375rem;
+                }
+                #presenters-1 .card .text {
+                    font-size:inherit;
+                }
+                
+            }
+            @media(min-width:1400px) {
+                #presenters-3 .card {
+                    max-width: 400px;
+                }
+                .curve {
+                    top: -3.5rem;
+                }
+            }
+            .bottom-n-3 {
+                bottom:-3rem !important;
+            }
+        </style>
+        <!-- Colors -->
+        <style>
+                body {
+                  color:#5A5A5A;
+                  background-color: #ffffff;
+                }
+                h2 {
+                  color:#4E84C4;
+                }
+          		.webinar {
+                  color:#ffffff;
+                  background-color:#003D79;
+                }
+                #overview .card {
+                  	--bs-card-bg:#ffffff;
+                    --bs-card-border-color:#4E84C4;
+                  color:#818181;
+                    
+                }
+                #presenters .card {
+                    --bs-card-bg:#ffffff;
+                    --bs-card-border-color:#4E84C4;
+                    color:#818181;
+                    
+                }
+                .card .title h3 {
+                  color: #4E84C4;
+                }
+                .card .title p {
+                    color: #003D79;
+                }
+                #overview {
+                  background-color: #ffffff;
+                }
+                #overview-1 .card h3 {
+                  color:#4E84C4;
+                }
+          		#overview-2 .card h3 {
+                  color:#003D79;
+                }
+                #video {
+                  background-color:#F2F5F8;
+                }
+                
+                #presenters {
+                  background-color: #EBF0F7;
+                }
+                
+                #testimonial-1,
+                #testimonial-2 {
+                    background-color:#83AB55;
+                }
+                
+                #footer {
+                  background-color:#003D79;
+                }  
+          		.darkbg,
+          		.darkbg h2 {
+                  color:#ffffff;
+                }
+        </style>
+      <!--form-->
+      	<style>
+          	.mktoForm a.mktoNotYou {
+              color: #ffffff!important;
+            }
+          	.mktoForm {
+              color: #ffffff!important;
+            }
+          	.mktoForm {
+              font:inherit !important;
+              padding:0 !important;
+            }
+            .mktoForm .mktoOffset,
+            .mktoForm .mktoClear,
+            .mktoForm .mktoGutter{
+              display: none;
+            }
+            .mktoForm .mktoFormCol,
+            .mktoForm .mktoFieldWrap,
+            .mktoForm .mktoField {
+              float:none !important;
+              margin:0 !important;
+            }
+            .mktoForm .mktoFormCol{
+              flex: 1 0 100%;
+              margin-bottom:.75rem !important;
+            }
+            .mktoForm .mktoFormRow,
+            .mktoForm .mktoButtonRow{
+              display:flex;
+            }
+          	.mktoForm .mktoButtonRow{
+              margin-top:.75rem !important;
+              margin-bottom:.25rem !important;
+            }
+            .mktoForm .mktoFormRow {
+              flex-wrap: wrap;
+              margin-bottom:0;
+            }
+            .mktoForm .mktoHasWidth {
+              width: 100% !important;
+            }
+            .mktoForm label.mktoLabel {
+              display: none;
+            }
+            .mktoForm .mktoButtonWrap {
+              margin:auto !important;
+            }
+          	input, select, textarea {
+              display: block;
+              box-shadow: none !important;
+              min-height: 1.75em;
+              border-radius: 7px;
+              border: none !important;
+              padding: .75em .5em !important;
+              background-color:#fff;
+            }
+            .mktoForm .mktoFormRow {
+              margin-left:-.15rem;
+              margin-right: -.15rem;
+            }
+            .mktoForm .mktoFormCol {
+              padding: 0 .15rem;
+            }
+          	.mktoForm .mktoError {
+              bottom:auto !important;
+              font-size:1rem;
+            }
+          	.mktoForm button.mktoButton {
+              background: #054173 !important;
+              border:2px solid #ffffff !important;
+              border-radius: .75rem;
+              padding: .5rem 2.25rem !important;
+              text-transform: uppercase;
+              font-weight: bold;
+              font-size:1.25em !important;
+              color:#ffffff;
+            }
+          	.mktoForm button.mktoButton:hover {
+              background-color:#ffffff !important;
+              color:#054173 !important;
+            }
+          	.mktoForm .mktoFieldWrap {
+              max-width:360px;
+              margin: 0 auto !important;
+            }
+          	@media (min-width:480px) {
+              .mktoForm .mktoFormCol {
+                flex-shrink: 1;
+              }
+              .mktoForm .mktoFormRow {
+                flex-wrap: nowrap;
+              }
+              .mktoForm .mktoFieldWrap {
+                max-width:none;
+              }
+            }
+      	</style>
+  
+      
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" >
+<link rel="icon" href="/favicon.ico" type="image/x-icon" >
+
+
+<style>.mktoGen.mktoImg {display:inline-block; line-height:0;}</style>
+    </head>
+   <body id="bodyId">
+
+
+      
+        <section id="hero" class="darkbg position-relative pb-4 pb-md-5">
+            <div class="hero-background position-absolute top-0 bottom-n-3 start-0 end-0">
+                <svg preserveAspectRatio="xMidYMax slice" style="width: 100%;height: 100%;" viewBox="0 0 300 100">
+                    <defs>
+                        <linearGradient id="0" x1="0" y1="50%" x2="100%" y2="50%">
+                          <stop offset="0%" stop-color="#003d79"></stop>
+                          <stop offset="100%" stop-color="#83AB55"></stop>
+                        </linearGradient>
+                      </defs>
+                    <path fill="url(#0)" fill-opacity="1" d="M 0 0 H 300 V 100 C 200 75,100 75 0 100 V 0"></path>
+                </svg>
+            </div>
+            <div class="container-fluid position-relative px-0 pb-3">
+                <div class="row mx-0 ms-lg-5">
+                    <div class="col-12 col-md pb-4 pb-md-5 px-0">
+                        <div class="mktoText webinar" id="page-top-text">On-Demand WEBINAR</div>
+                        <div class="px-1 px-md-0 mx-2 mx-sm-4 mx-md-5 me-lg-0 mt-5">
+                            <div class="mktoText logo " id="toplogo">
+                                <a href="https://www.inovalon.com/" target="blank"><img src="inovalon_logo.svg"></a>
+                            </div>
+                            <div class="mktoText text mt-4" id="text-1"><h1>Navigating a Greater Patient Financial Role with Patient Statement Management</h1>
+<p>Discover how to streamline your current patient payments process and maximize revenue with a cost-effective SaaS solution that simplifies billing for your staff and patients.</p>
+<p>Free webinar – now available on demand!</p></div>
+                        </div>
+                    </div>
+                    <div class="col col-md-5 col-lg-4 offset-xl-2 offset-lg-1 pt-2 pt-md-0 px-0 d-md-flex">
+                        <div id="form" mktoname="Form" class="form-wrapper mx-2 mx-sm-4 mx-md-0 ms-md-auto mb-auto p-3 pt-4 pt-md-5 text-center text-md-start">
+                          <div class="mktoText" id="form-head"><h2>Accelerate patient payments<br></h2>
+<p>Fill out the form to watch now!</p></div>
+                          <div class="mktoForm" id="marketo-form"><div id="lpeCDiv_1009803" class="lpeCElement On-Demand_Webinar_Registration_Form_-_8_Fields_New_LP"><span class="lpContentsItem formSpan">
+
+<form method="POST" action="LP-FY23-WG-Inovalon-1-sendemail.php" class="mktoForm mktoHasWidth mktoLayoutLeft" id="mktoForm_4897"  __biza="W___" style="font-family: inherit; font-size: 13px; color: rgb(51, 51, 51); width: 2847px;">
+
+
+
+<input type="hidden"   name="camp_id" value="WegoMedia_LP-FY23-WG-Inovalon-1" />
+
+
+    <style type="text/css"></style>
+    <div class="mktoFormRow">
+        <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 5px;">
+            <div class="mktoOffset" style="width: 5px;"></div>
+            <div class="mktoFieldWrap mktoRequiredField">
+                <label for="FirstName" id="LblFirstName" class="mktoLabel mktoHasWidth" style="width: 100px;">
+                    <div class="mktoAsterix">*</div>
+                    First:
+                </label>
+                <div class="mktoGutter mktoHasWidth" style="width: 5px;"></div>
+                <input
+                    id="FirstName"
+                    name="firstname"
+                    placeholder="First"
+                    maxlength="255"
+                    aria-labelledby="LblFirstName InstructFirstName"
+                    type="text"
+                    class="mktoField mktoTextField mktoHasWidth mktoRequired"
+                    aria-required="true"
+                    style="width: 150px;"
+					required=""
+                />
+                <span id="InstructFirstName" tabindex="-1" class="mktoInstruction"></span>
+                <div class="mktoClear"></div>
+            </div>
+            <div class="mktoClear"></div>
+        </div>
+        <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 5px;">
+            <div class="mktoOffset" style="width: 5px;"></div>
+            <div class="mktoFieldWrap mktoRequiredField">
+                <label for="LastName" id="LblLastName" class="mktoLabel mktoHasWidth" style="width: 100px;">
+                    <div class="mktoAsterix">*</div>
+                    Last:
+                </label>
+                <div class="mktoGutter mktoHasWidth" style="width: 5px;"></div>
+                <input
+                    id="LastName"
+                    name="data[0]"
+                    placeholder="Last"
+                    maxlength="255"
+                    aria-labelledby="LblLastName InstructLastName"
+                    type="text"
+                    class="mktoField mktoTextField mktoHasWidth mktoRequired"
+                    aria-required="true"
+                    style="width: 150px;"
+					required=""
+                />
+                <span id="InstructLastName" tabindex="-1" class="mktoInstruction"></span>
+                <div class="mktoClear"></div>
+            </div>
+            <div class="mktoClear"></div>
+        </div>
+        <div class="mktoClear"></div>
+    </div>
+    <div class="mktoFormRow">
+        <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 5px;">
+            <div class="mktoOffset" style="width: 5px;"></div>
+            <div class="mktoFieldWrap mktoRequiredField">
+                <label for="Email" id="LblEmail" class="mktoLabel mktoHasWidth" style="width: 100px;">
+                    <div class="mktoAsterix">*</div>
+                    Email:
+                </label>
+                <div class="mktoGutter mktoHasWidth" style="width: 5px;"></div>
+                <input
+                    id="Email"
+                    name="data[1]"
+                    placeholder="Email"
+                    maxlength="255"
+                    aria-labelledby="LblEmail InstructEmail"
+                    type="email"
+                    class="mktoField mktoEmailField mktoHasWidth mktoRequired"
+                    aria-required="true"
+                    style="width: 150px;"
+					required=""
+                />
+                <span id="InstructEmail" tabindex="-1" class="mktoInstruction"></span>
+                <div class="mktoClear"></div>
+            </div>
+            <div class="mktoClear"></div>
+        </div>
+        <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 5px;">
+            <div class="mktoOffset" style="width: 5px;"></div>
+            <div class="mktoFieldWrap mktoRequiredField">
+                <label for="Phone" id="LblPhone" class="mktoLabel mktoHasWidth" style="width: 100px;">
+                    <div class="mktoAsterix">*</div>
+                    Phone:
+                </label>
+                <div class="mktoGutter mktoHasWidth" style="width: 5px;"></div>
+                <input
+                    id="Phone"
+                    name="data[2]"
+                    placeholder="Phone"
+                    maxlength="255"
+                    aria-labelledby="LblPhone InstructPhone"
+                    type="text"
+                    class="mktoField mktoTextField mktoInputMask mktoHasWidth mktoRequired"
+                    aria-required="true"
+                    style="width: 150px;"
+					required=""
+                />
+                <span id="InstructPhone" tabindex="-1" class="mktoInstruction"></span>
+                <div class="mktoClear"></div>
+            </div>
+            <div class="mktoClear"></div>
+        </div>
+        <div class="mktoClear"></div>
+    </div>
+    <div class="mktoFormRow">
+        <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 5px;">
+            <div class="mktoOffset" style="width: 5px;"></div>
+            <div class="mktoFieldWrap mktoRequiredField">
+                <label for="PostalCode" id="LblPostalCode" class="mktoLabel mktoHasWidth" style="width: 100px;">
+                    <div class="mktoAsterix">*</div>
+                    ZIP:
+                </label>
+                <div class="mktoGutter mktoHasWidth" style="width: 5px;"></div>
+                <input
+                    id="PostalCode"
+                    name="data[3]"
+                    placeholder="ZIP"
+                    maxlength="255"
+                    aria-labelledby="LblPostalCode InstructPostalCode"
+                    type="text"
+                    class="mktoField mktoTextField mktoInputMask mktoHasWidth mktoRequired"
+                    aria-required="true"
+                    style="width: 150px;"
+					required=""
+                />
+                <span id="InstructPostalCode" tabindex="-1" class="mktoInstruction"></span>
+                <div class="mktoClear"></div>
+            </div>
+            <div class="mktoClear"></div>
+        </div>
+        <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 5px;">
+            <div class="mktoOffset" style="width: 5px;"></div>
+            <div class="mktoFieldWrap mktoRequiredField">
+                <label for="Title" id="LblTitle" class="mktoLabel mktoHasWidth" style="width: 100px;">
+                    <div class="mktoAsterix">*</div>
+                    Title:
+                </label>
+                <div class="mktoGutter mktoHasWidth" style="width: 5px;"></div>
+                <input id="Title" name="data[4]" placeholder="Title" maxlength="255" aria-labelledby="LblTitle InstructTitle" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" aria-required="true" style="width: 150px;"
+required=""				/>
+                <span id="InstructTitle" tabindex="-1" class="mktoInstruction"></span>
+                <div class="mktoClear"></div>
+            </div>
+            <div class="mktoClear"></div>
+        </div>
+        <div class="mktoClear"></div>
+    </div>
+    <div class="mktoFormRow">
+        <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 5px;">
+            <div class="mktoOffset" style="width: 5px;"></div>
+            <div class="mktoFieldWrap mktoRequiredField">
+                <label for="Company" id="LblCompany" class="mktoLabel mktoHasWidth" style="width: 100px;">
+                    <div class="mktoAsterix">*</div>
+                    Organization:
+                </label>
+                <div class="mktoGutter mktoHasWidth" style="width: 5px;"></div>
+                <input
+                    id="Company"
+                    name="data[5]"
+                    placeholder="Organization"
+                    maxlength="255"
+                    aria-labelledby="LblCompany InstructCompany"
+                    type="text"
+                    class="mktoField mktoTextField mktoHasWidth mktoRequired"
+                    aria-required="true"
+                    style="width: 150px;"
+					required=""
+                />
+                <span id="InstructCompany" tabindex="-1" class="mktoInstruction"></span>
+                <div class="mktoClear"></div>
+            </div>
+            <div class="mktoClear"></div>
+        </div>
+        <div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 5px;">
+            <div class="mktoOffset" style="width: 5px;"></div>
+            <div class="mktoFieldWrap mktoRequiredField">
+                <label for="Primary_Line_of_Business__c_account" id="LblPrimary_Line_of_Business__c_account" class="mktoLabel mktoHasWidth" style="width: 100px;">
+                    <div class="mktoAsterix">*</div>
+                    I work at...
+                </label>
+                <div class="mktoGutter mktoHasWidth" style="width: 5px;"></div>
+                <select
+                    id="Primary_Line_of_Business__c_account"
+                    name="data[6]"
+                    aria-labelledby="LblPrimary_Line_of_Business__c_account InstructPrimary_Line_of_Business__c_account"
+                    class="mktoField mktoHasWidth mktoRequired"
+                    aria-required="true"
+                    style="width: 150px;"
+					required=""
+                >
+                    <option value="">Select...</option>
+                    <option value="Hospital">Acute (Hospital/Health System)</option>
+                    <option value="Physician">Ambulatory (Physician/Provider)</option>
+                    <option value="Home Health">Home Health/Hospice</option>
+                    <option value="Skilled Nursing Facility">Skilled Nursing/Other Post-Acute</option>
+                    <option value="Software Vendor">Vendor</option>
+                    <option value="Other Ambulatory Provider">Other</option>
+                </select>
+                <span id="InstructPrimary_Line_of_Business__c_account" tabindex="-1" class="mktoInstruction"></span>
+                <div class="mktoClear"></div>
+            </div>
+            <div class="mktoClear"></div>
+        </div>
+        <div class="mktoClear"></div>
+    </div>
+    
+		<div class="mktoButtonRow"><span class="mktoButtonWrap mktoNative" style="margin-left: 110px;">
+		<label style="    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;gap: 10px;"><input type="checkbox" name="data[7]" value="optin_checked" />
+		<p>I would like to receive information from the supplier sponsoring this content and am willing to share the information above with Inovalon.</p></label>
+		
+		</span></div>
+	
+	<div class="mktoButtonRow"><span class="mktoButtonWrap mktoNative" style="margin-left: 110px;"><button type="submit" class="mktoButton">Watch now!</button></span></div>
+
+    
+</form>
+
+
+
+<noscript>
+  <form class='mktoForm mktoNoJS'>
+      <input type="hidden" name="formid" value="4897" />
+  </form>
+  <p>Please enable Javascript to view this form.</p>
+</noscript>
+
+</span></div>
+</div>	
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      	<div class="spacer-top"></div>
+        <section id="overview" class="nostyle pt-4 pt-md-0 nostyle">
+            
+            <div id="overview-2" class="container pb-3  pt-md-3 nostyle">
+                <div class="row mb-4">
+                    <div class="col-12 text col-xl-6 d-flex flex-column">
+                            <div class="mktoText" id="text-3"><h2>Overview</h2>
+<p></p><p>More consumers are choosing high-deductible healthcare plans, which also increases their financial responsibility. Instead of wasting time sending statements and following up on outstanding balances, your organization can automate the entire process.</p>
+<p><br></p>
+<p>In this webinar, Inovalon’s Senior Product Manager, Jeremy Swanson, shares the details of the rise in patient financial responsibility. Swanson also discusses the challenges this presents to healthcare organizations and how streamlining billing can increase revenue while enhancing the patient experience.</p>
+<p><br></p>
+<p>By watching the webinar, you will discover how you can:</p><p></p></div> 
+                                     
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <div class="card p-3 mx-auto my-3 d-block clear-float">
+                            <div class="mktoText me-3 me-sm-4 float-start p-sm-2 p-md-3 icon-wrapper" id="icon-1"><img src="https://pages.inovalon.com/rs/322-GRX-456/images/clipboard-list-check.png" alt="clipboard-list-check.png" height="334" width="334"></div>
+                            <div class="mktoText" id="text-4"><h3>Simplify billing</h3>
+<p>Automate recurring payment plans to help reduce manual follow-ups and improve staff productivity and morale</p></div>
+                        </div>
+                        <div class="card p-3 mx-auto my-3 d-block clear-float">
+                            <div class="mktoText me-3 me-sm-4 float-start p-sm-2 p-md-3 icon-wrapper" id="icon-2"><img src="https://pages.inovalon.com/rs/322-GRX-456/images/hand-holding-dollar.png" alt="hand-holding-dollar.png" height="334" width="334"></div>
+                            <div class="mktoText" id="text-5"><h3>Capture more revenue</h3>
+<p>Create branded statements that optimize patient understanding and expedite payments for faster collection</p></div>
+                        </div>
+                        <div class="card p-3 mx-auto my-3 d-block clear-float">
+                            <div class="mktoText me-3 me-sm-4 float-start p-sm-2 p-md-3 icon-wrapper" id="icon-3"><img src="https://pages.inovalon.com/rs/322-GRX-456/images/laptop-medical.png" alt="laptop-medical.png" height="334" width="334"></div>
+                            <div class="mktoText" id="text-6"><h3>Enhance patient experiences</h3>
+<p>Provide convenient, flexible payment options with a 24/7 online payment portal and easy-to-read branded statements</p></div>
+                        </div>
+                        <div class="text-center pt-3 mt-4 d-xl-none ">
+                            <a href="#form" role="button" class="btn btn-2 fs-3 ">Watch now</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+          <div class="pb-xl-5 "></div>
+            
+        </section>
+       
+        <section id="presenters" class="nostyle pb-5 nostyle">
+            <div class="pt-5 "></div>
+            <div class="container pt-4 pb-xl-2">
+                <div class="row">
+                    <div class="col">
+                        <div class="mktoText text text-center text-xl-start" id="text-9">
+                            <h2>Featured Presenters</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="presenters-1" class="container py-4 pb-5 nostyle"> 
+                <div class="row">
+                    <div class="col">
+                        <div class="card mx-xl-5 p-4 flex-md-row">
+                            <div class="mktoText presenter-image col-md-4 p-0 m-0 mb-3 md-md-0 me-md-4" id="presenter-1-image"><img src="https://resource.cmofirst.com/whitepaper/LP-FY23-WG-Inovalon-1-Jeremy-Swanson-Inovalon-Headshot.jpg" alt="Jeremy Swanson Inovalon Headshot.jpg" height="3951" width="5926"></div>
+                            <div>
+                                <div class="mktoText title mb-2" id="presenter-1-title"><h3>Jeremy Swanson</h3></div>
+                                <div class="mktoText text" id="presenter-1-text"><p><br><br>Jeremy Swanson has over 17 years of healthcare experience with a proven background in Medicare, CMS, and electronic data workflows. As Inovalon’s Senior Product Manager, he is currently focused on developing back-end RCM solutions for our Provider Cloud.</p></div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+        </section>
+      	<div class="spacer-bottom"></div>
+        
+        
+        <section id="footer" class="darkbg py-5 position-relative">
+            <div class="curve position-absolute">
+                <svg style="width: 100%;height: 100%;" viewBox="0 0 300 50" preserveAspectRatio="xMidYMin slice">
+                    <path fill="#003D79" fill-opacity="1" d="M 0 0 C 100 10,200 10 300 0 V 50 H 0 V 0"></path>
+                </svg>
+            </div>
+            <div class="container">
+                <div class="row pb-3 pb-md-5 pt-md-2 text-center text-md-start">
+                   <!-- <div class="col py-5 pt-4">
+                        <div class="mktoText logo m-auto m-md-0" id="footer-logo">
+                            <a href="https://www.inovalon.com/" target="blank"><img src="https://resource.cmofirst.com/whitepaper/inovalon_logo.svg"></a>
+                        </div>
+                        <div class="mktoText text mt-4 ps-1" id="footer-text"><p>Inovalon and design<sup>®</sup> and Inovalon<sup>®</sup> are trademarks of Inovalon, Inc.<br>© 2023 Inovalon. All rights reserved.<br></p>
+<p>webinars@inovalon.com | (866) 649-6107<br><a href="https://www.inovalon.com//terms-of-use/" target="_blank">Terms of Use</a> | <a href="https://www.inovalon.com/privacy-policy/" target="_blank">Privacy Policy</a></p></div>
+                    </div>-->
+					
+					
+					
+					<div class="col py-5 pt-4">
+                        <div class="mktoText logo m-auto m-md-0" id="footer-logo">
+                            <a href="https://www.inovalon.com/" target="blank"><img src="https://resource.cmofirst.com/whitepaper/Final-CMO-CIO-Logos_CMO-Logo.png" style="width:100px;"></a>
+                        </div>
+                        <div class="mktoText text mt-4 ps-1" id="footer-text"><p><br>© 2023 CMOFirst - a brand owned and operated by Wego Media LLC.  All rights reserved.<br></p>
+<p>
+<a href="https://cmofirst.com/privacy-policy/" target="_blank">CMOFirst Privacy Policy</a> | 
+<a href="https://www.inovalon.com/privacy-policy/" target="_blank">Inovalon Privacy Policy</a>
+</p></div>
+                    </div>
+					
+					
+					
+					
+                </div>    
+            </div>
+        </section>
+       
+
+
+
+</div><div id="drift-frame-controller" class="drift-conductor-item drift-frame-controller drift-frame-controller-align-right drift-has-chat" style="right: 24px; width: 360px; max-width: none; position: fixed; z-index: 2147483647; height: 100px; bottom: 24px;"></div></body>
+</html>
+
+

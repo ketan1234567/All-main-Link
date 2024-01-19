@@ -1,0 +1,147 @@
+[
+    {
+        "q": "Q1. How many leaves can be carried forward for the next year if you have 2 paid leaves and 4 casual leaves? ___. ",
+        "options": [
+            { "opt": "4 casual leaves and 1 paid leave", "val": "4 casual leaves and 1 paid leave" },
+            { "opt": "2 paid leaves and 2 casual leaves", "val": "2 paid leaves and 2 casual leaves" },
+            { "opt": "2 paid leaves and 0 casual leaves", "val": "2 paid leaves and 0 casual leaves" },
+            { "opt": "2 paid leaves and 4 casual leaves", "val": "2 paid leaves and 4 casual leaves" }
+        ]
+    },
+    {
+        "q": "Q2. What is an alternative term for &#8216;marketing communications&#8217;?  ",
+        "options": [
+            { "opt": "Promotion", "val": "Promotion" },
+            { "opt": "Email", "val": "Email" },
+            { "opt": "Sales Talk", "val": "Sales Talk" },
+            { "opt": "Price Lists", "val": "Price Lists" }
+        ]
+    },
+    {
+        "q": "Q3. Which factor determines who has the right to access different types of IT systems and information?",
+        "options": [
+            { "opt": "Availability", "val": "Availability" },
+            { "opt": "Accessibility", "val": "Accessibility" },
+            { "opt": "Reliability", "val": "Reliability" },
+            { "opt": "Scalability", "val": "Scalability" }
+        ]
+    },
+	{
+        "q": "Q4. Of the following, which option describes all of the steps and/or business rules, throughout, required for a process to run correctly?  ",
+        "options": [
+            { "opt": "Workflow", "val": "Workflow" },
+            { "opt": "EIP", "val": "EIP" },
+            { "opt": "Workflow system", "val": "Workflow system" },
+            { "opt": "SLA", "val": "SLA" }
+        ]
+    },
+    {
+        "q": "Q5. Which industry type does XDBS Worldwide belong to?",
+        "options": [
+            { "opt": "Marketing", "val": "Marketing" },
+            { "opt": "Business process outsourcing", "val": "Business process outsourcing" },
+            { "opt": "Information Technology based campaigns", "val": "Information Technology based campaigns" },
+            { "opt": "Advertising", "val": "Advertising" }
+        ]
+    },
+    
+    {
+        "q": "Q6. Architecture & planning consultancy comes under which type of industry?",
+        "options": [
+             { "opt": "Professional Services", "val": "Professional Services" },
+             { "opt": "Construction", "val": "Construction" },
+             { "opt": "Business Services", "val": "Business Services" },
+             { "opt": "None of the above ", "val": "None of the above" }
+        ]
+    },
+    {
+        "q": "Q7. ‘Case: If to follow last three months’ Microsoft suppression, in this scenario all the leads scored across all the clients on Microsoft campaigns are to be suppressed’<br>Aforementioned case is an example of which type of suppression?",
+        "options": [
+            { "opt": "Campaign Suppression", "val": "Campaign Suppression" },
+            { "opt": "Yellow Suppression", "val": "Yellow Suppression" },
+            { "opt": "Client Suppression", "val": "Client Suppression" },
+            { "opt": "Cross Suppression", "val": "Cross Suppression" }
+        ]
+    },
+    {
+        "q": "Q8. The employees who are on probation period, can avail the paternity leave for ____ ",
+        "options": [
+            { "opt": "4 working days", "val": "4 working days" },
+            { "opt": "5 working days", "val": "5 working days" },
+            { "opt": "3 working days", "val": "3 working days" },
+            { "opt": "No leave is given when employee is on probation", "val": "No leave is given when employee is on probation" }
+        ]
+    },
+    {
+        "q": "Q9. Account list: Yes<br>Employee Size: 500-1000<br>Back fill: yes<br> Exclusions:  Education, Non-profit, Government<br> With aforementioned specifications of the campaign, agents are allowed to target any company outside the account list with employee size 5000-10000 and domain as .com?",
+        "options": [
+            { "opt": "Yes", "val": "Yes" },
+            { "opt": "No", "val": "No" },
+            { "opt": "It is okay to target healthcare with .org", "val": "It is okay to target healthcare with .org" },
+            { "opt": "Both B and C", "val": "Both B and C" }
+        ]
+    },
+    {
+        "q": "Q10. Which of the following country is abbreviated as ‘CH’?",
+        "options": [
+            { "opt": "China", "val": "China" },
+            { "opt": "Chile", "val": "Chile" },
+            { "opt": "Indonesia", "val": "Indonesia" },
+            { "opt": "Switzerland", "val": "Switzerland" }
+        ]
+    },
+    {
+        "q": "Q11. Which state does not use daylight saving?  ",
+        "options": [
+            { "opt": "Navajo Nation", "val": "Navajo Nation" },
+            { "opt": "Wyoming", "val": "Wyoming" },
+            { "opt": "Arizona", "val": "Arizona" },
+            { "opt": "Puerto Rico", "val": "Puerto Rico" }
+        ]
+    },
+    {
+        "q": "Q12. The full form of ‘FTE’ is ____.",
+        "options": [
+            { "opt": "Full time effort", "val": "Full time effort" },
+            { "opt": "Full time equivalent", "val": "Full time equivalent" },
+            { "opt": "Both A and B", "val": "Both A and B" },
+            { "opt": "None of the above", "val": "None of the above" }
+        ]
+    },
+    {
+        "q": "Q13. The Install Base List is _______? ",
+        "options": [
+            { "opt": "List of companies that use the competitor products", "val": "List of companies that use the competitor products" },
+            { "opt": "List of companies that use a specific software platform", "val": "List of companies that use a specific software platform" },
+            { "opt": "The list of challenges observed during installation of software", "val": "The list of challenges observed during installation of software" },
+            { "opt": "List of all kinds of software installed at an organization", "val": "List of all kinds of software installed at an organization" }
+        ]
+    }
+    ,
+    {
+        "q": "Q14. What is the email address to reach DNC team?  ",
+        "options": [
+            { "opt": "dncescalations@ondirect.in", "val": "dncescalations@ondirect.in" },
+            { "opt": "dnc@ondirect.in", "val": "dnc@ondirect.in" },
+            { "opt": "dncescalations@ondirect.com", "val": "dncescalations@ondirect.com" },
+            { "opt": "dncescallations@ondirect.in ", "val": "dncescallations@ondirect.in " }
+        ]
+    },
+
+	{
+        "q": "Q15. What is the difference between Suppression by domain and suppression by email? ",
+        "options": "text"
+        
+    },
+	{
+        "q": "Q16.hat do the following statements mean? - ‘Script not followed’, ‘Not an RPC’",
+        "options": "text"
+        
+    },
+	{
+        "q": "Q17. What 3 changes would you want to bring to your existing team? How will you ensure those to get implemented?",
+        "options": "text"
+        
+    }
+
+]

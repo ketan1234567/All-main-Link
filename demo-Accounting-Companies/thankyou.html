@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+</head>
+<body>
+	
+
+
+
+
+
+
+<link rel="stylesheet" href="css/steps.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+/*GENERALE*/ 	
+
+html{
+	background-color:#FFFFFF;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#FFFFFF;
+	margin:0;
+	padding:0 !important;
+}
+.contenaire {
+	max-width:742px;
+	width:85%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#FAFAFA;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:20px;
+	padding-right:20px;
+	border:#E4E4E4 solid 1px;
+}
+.spacer {
+	clear:both;
+}
+h1, h2, h3 {
+	line-height:15px !important;
+}
+/*COMPANEO*/
+.companeo {
+	max-width:742px;
+	width:100%;
+	margin:0 auto;
+	height:25px;
+	background-color:#FFFFFF;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.compa {
+	margin-left:auto;
+	margin-right: auto;
+	width:15%;
+	float:left;
+}
+.accr {
+	margin-top: 5px;
+	float:left;
+	text-align:center;
+	height:25px;
+	vertical-align:central;
+	width:55%;
+	padding-left:10px;
+	padding-right:10px;
+	color: #f89827;
+}
+.num {
+	float:left;
+	width:25%;
+	height:25px;
+	margin-right:0px;
+	margin-left: auto;
+	text-align:right;
+}
+
+.num p {
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-size:9px ;
+	 font-weight: normal;
+	 color: #999999;
+	 line-height:none;
+	 padding:0;
+	 margin:0;
+}
+.accrsmall {
+	text-align:center;
+	height:25px;
+	vertical-align:central;
+	width:100%;
+	color: #f89827;
+}
+.numsmall {
+	height:25px;
+	margin-right:20px;
+	text-align: center;
+}
+
+.numsmall p {
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-size:9px ;
+	 font-weight: normal;
+	 color: #999999;
+	 line-height:none;
+	 padding:0;
+	 margin:0;
+	 text-align:center;
+}
+.accr, .accrsmall, .num, .numsmall{
+	font-size:11px ; 
+	font-weight: bold;	
+}
+.accr strong, .accrsmall strong, .num, .numsmall{
+	color: #00a3e4;
+	font-weight: bold;
+	margin-top: 5px;
+}
+/*FORMULAIRE*/ 
+.formulaire {
+	background-color:#FFFFFF;
+	border:#E4E4E4 solid 1px;
+	margin: auto;
+	border-radius:5px;
+	padding:20px
+}
+.categ {
+	text-align:center;
+	color:#999999;
+	font-size: 12px;
+	border-bottom:#E4E4E4 solid 1px;
+	padding-bottom:10px;
+}
+.categ h1 {
+	color:#EC782F;
+	font-size:19px;
+	line-height:initial !important;
+
+}
+/* #form1 #divQuestion li {
+	width:100% !important;
+} */
+.lpsapi {
+	margin-top:15px;
+}
+/*AVANTAGE*/
+.avimg {
+	margin: auto;
+}
+.avantage {
+	float: left;
+	width:50%;
+	background-color:#FFFFFF;
+	border:#E4E4E4 solid 1px;
+	border-radius:5px;
+	margin-top:10px;
+	padding: 15px;
+}
+.avantage h3 {
+	margin-top:10px;
+	font-size:12px;
+	font-weight:bold;
+	color:#3a90de;
+	text-align:left;
+}
+.avantage ul li {
+	margin-top:0;
+	font-size:12px;
+	font-weight: normal;
+	color:#999999;
+	list-style-image : url(../img/puce.jpg);
+	line-height:20px;
+	padding-right:15px
+}
+/*IMAGE*/
+.img_princi {
+	max-width:315px;
+	float: right;
+	border:none;
+	border-bottom: #EC782F solid 5px;
+	margin-top:15px;
+	margin-left:20px;
+}
+.img_princi img {
+	margin:0 auto;
+	border:none;
+	width: 100%;
+}
+/*LOGO*/
+.fac_explorer {
+	width:85% !important;
+	float:left;
+	margin-left:20px;
+	margin-right:20px;
+}
+#logosfacs {
+	background-color:#FFFFFF;
+	border:#E4E4E4 solid 1px;
+	margin:0 auto;
+	border-radius:5px;
+	margin-top:15px;
+	padding:20px;
+}
+.prev, .noprev, .next, .nonext {
+	border: 0 none;
+	cursor: pointer;
+	display: inline-block;
+	height: 41px;
+	margin-bottom: 0;
+	width: 15px;
+}
+.prev, .noprev {
+	background: url("../img/arrow_prev.jpg") no-repeat scroll 0 0 transparent;
+	float: left;
+	left: 0;
+	margin-top: 30px;
+	top: 0;
+}
+.next, .nonext {
+	background: url("../img/arrow_next.jpg") no-repeat scroll 0 0 transparent;
+	top:0;
+	right:0;
+	margin-top:30px;
+	float:right;
+}
+
+.title{
+	font-size:13px;
+	color:#999999;
+	display:none;	
+	}
+/*MARCHE A SUIVRE*/
+.mas {	
+	max-width:742px;
+	height:80px;
+	width:85%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(../img/bg-mas.jpg);
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px;
+	border:#E4E4E4 solid 1px;
+	
+}
+.mas h3 {
+	margin-top:0;
+	font-size:12px;
+	font-weight:bold;
+	color:#787878;
+	text-align:center;
+}
+.mas ul li {
+	margin-top:0;
+	font-size:12px;
+	font-weight: normal;
+	color:#787878;
+	text-align:center;
+	display:inline;
+	margin-left: 10px
+}
+.mas ul li h4 {
+	display:inline;
+	font-size:12px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#3a90de;
+	text-align:center;
+}
+/*COMPANEO SMALL*/
+.companeosmall {
+	display:none
+}
+/*FOOTER*/
+.footer {
+	max-width:742px;
+	width:100%;
+	margin:0 auto;
+	height:80px;
+	background-color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+	color: #b1b0b0;
+	text-align:center;
+}
+.footer a {
+	color:#666666;
+}
+ @media (max-width: 800px) {
+.companeo {
+	max-width:742px;
+	width:100%;
+	margin:0 auto;
+	height: 25px;
+	background-color:#FFFFFF;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.avantage {
+	background-color:#FFFFFF;
+	border:#E4E4E4 solid 1px;
+	margin:0 auto;
+	border-radius:5px;
+	margin-top:15px;
+	width:100%;
+}
+.img_princi {
+	max-width:315px;
+	float: none;
+	border:none;
+	width:auto;
+	border-bottom: #EC782F solid 5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.img_princi img {
+	margin:0 auto;
+	border:none;
+	margin-top:20px
+}
+}
+ @media (max-width: 620px) {
+#logosfacs{
+display:none;
+}
+ }
+ @media (max-width: 799px) {
+.accr {
+	display:none;
+}
+.num {
+	display:none;
+}
+.companeo {
+	width:83px;
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+.compa {
+	width:83px;
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+.contenaire {
+	padding:0;
+	border:none;
+	width:100%;
+}
+.formulaire {
+	width:100%;
+	background-color:#FFFFFF;
+	border-radius:0px;
+	margin:0 auto;
+	padding:0;
+	border:none;
+}
+.categ {
+	padding:10px;
+	background-color:#EC782F;
+	text-align:center;
+	color:#FFFFFF;
+	font-size: 13px;
+	border-bottom:#E4E4E4 solid 1px;
+	line-height:none;
+}
+.categ h1 {
+	color:#FFFFFF;
+	font-size:15px;
+	font-weight:bold;
+	line-height:initial !important;
+	padding-bottom:0px;
+	margin: 10px 0px;
+}
+#form1 #divQuestion li {
+	width:100% !important;
+}
+/* .lpsapi {
+	margin-top:15px;
+	padding:10px;
+} */
+.avimg {
+	width:100%;
+	margin: auto;
+}
+.avantage {
+	width:100%;
+	padding:0px;
+	margin:0 auto;
+	border:#E4E4E4 none 0px;
+	border-top:#E4E4E4 solid 1px;
+	border-bottom:#E4E4E4 solid 1px;	
+	margin:0 auto;
+	border-radius:0px;
+}
+.mas {
+	display:none;
+}
+.img_princi {
+	display:none;
+}
+#logosfacs {
+	display:none;
+}
+.companeosmall {
+	display: block;
+	width:300px;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.compasmall {
+	width:83px;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	margin-bottom:10px;
+}
+
+#form1 #divConfirmation .process-cartoon p {
+	margin: 0 3%;
+	float: left;
+	width: 100% !important;
+}
+#form1 #divCoupon .form-horizontal li, #form1 #divQaCoupon .form-horizontal li {
+	width: 100% !important;
+}
+#form1 #divCoupon .form-horizontal, #form1 #divQaCoupon .form-horizontal {
+	margin-right: 15px !important;
+	font-size: 70% !important;
+}
+#form1 #divCoupon,#form1 #divQaCoupon {
+	padding-top: 5px !important;
+}
+form#form1 {
+    padding: 20px;
+}
+
+}
+
+
+ @media (max-width: 479px) {
+
+ 	form#form1 {
+    padding: 0px;
+}
+
+ }
+ 
+ .mas ul {
+	text-align: center;
+	padding: 0px;
+}
+
+.avimg ul {
+	margin-left: 0px;
+    padding-left: 20px;
+}
+
+</style>
+
+
+
+<link rel="stylesheet" href="css/ph-survey-slider.css">
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+<script src="js/jquery.steps.js"></script>
+
+
+<style>
+	input[type="checkbox"]  ,input[type="radio"] {
+    display: none !important;
+	}
+
+	#surveySlider .steps{
+		display:none;
+	}
+</style>
+
+
+<div>
+  <div class="contenaire">
+    <div class="formulaire">
+      <div class="categ">
+        <h1>Merci, votre demande de devis a bien été prise en compte
+</h1>
+      
+
+		</div>
+      <div class="lpsapi"><div id="companeoForm"></div> <div class="spacer"></div>
+	  
+	  <div id="jsConfirmationCallback">
+		
+		<!--<form id="surveySlider" class="surveySlider is-landing slide_qst_12" autocomplete="on" data-gtm-form-interact-id="0"><div class="surveySlider__questionContainer" style="height: 273px;"><div class="surveySlider__header"><p class="header__categName"></p><p class="header__surtitle">Il tuo CAP ci permette di trovare i fornitori nella tua zona.</p><p class="header__title">Codice Postale:</p><p class="header__subtitle"></p></div><div class="surveySlider__content" style="height: 207px; max-height: unset;"><div class="contentForm"><div class="contentForm__form floatingWrapper"><input class="floating__input" type="tel" regex="" name="qst_12" qid="12" value="12121" autocomplete="postal-code"><label class="floating__label">Codice Postale</label><span class="floating__icon is-city"></span><div class="floating__reset"></div><div class="floating__error">Ops! Ti preghiamo di completare questo campo…</div></div></div></div></div><div class="surveySlider__cta"><div class="cta__content"><button class="button button__prev" style="display: inline;"><span></span></button><button class="button button__next is-validcta">CONFERMA e COMPARA!<span></span></button></div></div><div class="cta__progressbar"><progress max="100" value="100"></progress></div><div class="surveySlider__topFooter"></div><div class="surveySlider__footer">Cliccando su Continuare, autorizzo Companeo e fino a 4 Fornitori di Soluzioni d'Incentivo a inviarmi preventivi, così come informazioni relative alla mia attività professionale.  <a href="https://www.infopro-digital.com/rgpd-gdpr/it/" target="_blank">Per saperne di più. </a></div></form>-->
+		
+
+		
+	</div>
+	
+	</div>
+    </div>
+    <div class="avimg">
+      <div class="avantage">
+        <h3>Avantages</h3>
+        <ul>
+            <li>Renseignez vos besoins</li>
+            <li>Comparez les prestations</li>
+            <li>Donnez suite ou non</li>
+          </ul>
+      </div>
+      <div class="img_princi">
+		<img src="img/image_lps.jpg" border="0">
+		</div>
+      <div class="spacer"></div>
+    </div>
+      <div class="spacer"></div>
+    </div>
+
+   <div class="mas">
+    <h3>Comment ça marche ?</h3>
+    <ul>
+      <li>
+        <h4>1.</h4>
+        Décrivez vos besoins</li>
+      <li>
+        <h4>2.</h4>
+        Nous recherchons pour vous des fournisseurs</li>
+      <li>
+        <h4>3.</h4>
+        Comparez les offres</li>
+    </ul>
+  </div>
+  <div class="spacer"></div>
+  
+  <ul style="text-align:center;font-family:Roboto, Arial, sans-serif, serif, Helvetica;font-size:12px;margin-top:10px;"><li style="
+    display: inline-block;
+    margin: 5px;
+"><a href="https://readmagazine.com/gdpr/" style="color:#9e9e9e;text-decoration:underline;">GDPR</a></li>
+</ul>
+  
+  
+
+
+</div>
+
+
+
+
+
+
+
+
+<script class="prettyprint linenums">
+	var form = $("#surveySlider");
+	form.validate({
+		errorPlacement: function errorPlacement(error, element) { element.before(error); },
+		rules: {
+			confirm: {
+				equalTo: "#password"
+			}
+		}
+	});
+	form.children("div").steps({
+		headerTag: "h3",
+		bodyTag: "section",
+		transitionEffect: "slideLeft",
+		onStepChanging: function (event, currentIndex, newIndex)
+		{
+			form.validate().settings.ignore = ":disabled,:hidden";
+			return form.valid();
+		},
+		onFinishing: function (event, currentIndex)
+		{
+			form.validate().settings.ignore = ":disabled";
+			return form.valid();
+		},
+		onFinished: function (event, currentIndex)
+		{
+			alert("Submitted!");
+			form.submit();
+		}
+	});
+	</script>
+
+
+</body>
+</html>

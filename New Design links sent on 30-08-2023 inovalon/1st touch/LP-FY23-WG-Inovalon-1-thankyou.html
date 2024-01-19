@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigating a Greater Patient Financial Role with Patient Statements</title>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&amp;family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" rel="stylesheet">
+        
+
+  <style>
+  *{
+    box-sizing: border-box;
+  }
+
+    body {
+	  font-family: 'Source Sans Pro', sans-serif;
+  background-image: url("LP-FY23-WG-Inovalon-1-thankyou_bg.png");
+  background-color: #cccccc;
+  background-repeat: no-repeat, repeat;
+  background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+
+.header{
+	   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+	padding:2%;
+}
+
+ .pub_logo{
+    width:80px;
+  }
+  .sp_logo{
+    width:15%;
+  }
+
+  .holder{
+    display: flex;
+  }
+
+  .left{
+    flex-basis: 30%;
+    padding: 1%;
+  }
+
+  .right{
+    flex-basis: 70%;
+    padding: 1%;
+  }
+
+
+  .card{
+
+    width:100%;
+    background-color: #cfcfcf;
+    border:1px solid  #a5a5a5;
+    margin-bottom: 1%;
+  }
+
+  .card .title{
+   padding: 3px;
+
+  }
+
+  .card .content{
+   padding: 3px;
+   background-color: #fff;
+
+  }
+
+
+  .card .content video{
+  min-width:460px;
+  }
+  
+  
+  .footer{
+	  color:#fff;
+  }
+  .footer a{
+	  color:#fff;
+	  text-decoration:underline;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .holder{
+    display: block;
+  }
+  
+    .card .content video{
+  min-width:100%;
+  }
+}
+  
+
+
+
+.popup{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ z-index: 99;
+  height: 50vh;
+  background-color: rgb(255, 255, 255);
+  
+  position: absolute;
+  width: 50vw;
+  transform: translate(50%,50%);
+  margin-left:0%;
+  margin-top:0%;
+
+}
+
+
+
+#email_input{
+  display: block;
+  background-color: #d6d6d6;
+  color:#111;
+  padding:10px;
+  text-align: center;
+  outline: none;
+  border:none;
+  width: 100%;;
+  margin-bottom: 5px;;
+}
+
+#submit_button{
+  display: block;
+  background-color: #1a75bc;
+  color:#fff;
+  padding:10px;
+  text-align: center;
+  outline: none;
+  border:none;
+  width: 100%;;
+}
+  </style>
+
+</head>
+<body>
+  
+<div style="position: relative;" class="popup_holder">
+  <div class="popup">
+
+
+    <div class="email_div" style="
+    width: 80%;
+">
+      <form id="email_form">
+        <h3>Email Address</h3>
+        <label for=""><input type="email" id="email_input" placeholder="Email" 
+     
+          required></label>
+        <input type="submit" button id="submit_button" value="Submit"  />
+      </form>
+      
+    </div>
+
+
+  </div>
+</div>
+  
+
+<div class="content" >
+
+  <div class="header">
+  
+  <img  src="Final-CMO-CIO-Logos_CMO-Logo.png"  class="pub_logo"/>
+  <img  src="Inovalon_logo_white.png"  class="sp_logo"/>
+  
+  </div>
+
+  <div class="holder">
+    <div class="left">
+      
+
+      <div class="card">
+        <div class="title">
+        Resources
+        </div>
+        <div class="content">
+          <a href="https://resource.cmofirst.com/whitepaper/LP-FY23-WG-Inovalon-1.mp4" download>Download this webinar</a>
+          </div>
+      </div>
+
+
+
+	<br>
+
+      <div class="card">
+        <div class="title">
+        Q&A
+        </div>
+        <div class="content" >
+			<div style="border:1px solid gray;background-color:#ededed;min-height:120px;">
+			
+			</div>
+			<br>
+          <div style="display:flex;">
+		  <div style="flex-basis:90%;"><input type="text" name="" id="q_a_input" style="width:100%" /></div>
+		  <div style="flex-basis:10%;"><button id="q_a_submit">Submit</button></div>
+		  <div style="color:green;" id="resp"></div>
+		  </div>
+          </div>
+      </div>
+
+    </div>
+    <div class="right">
+      <div class="card">
+        <div class="title"> Webinar </div>
+        <div class="content">
+          <video  
+width="100%"
+  id="podcast" controls  playsinline muted autoplay loop>
+ <source src="https://resource.wegomedia.com/whitepaper/LP-FY23-WG-Inovalon-1.mp4" type="video/mp4">
+
+  Your browser does not support the video tag.
+</video>
+
+
+
+
+<script>
+
+
+
+
+
+
+  var total_time=0;
+
+  const params = new Proxy(new URLSearchParams(window.location.search), {
+  get: (searchParams, prop) => searchParams.get(prop),
+  });
+  // Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
+  
+ //let email = `<?php echo base64_decode($_GET['e']); ?>`;
+  //let email = atob(params.e);
+let email="";
+
+
+  $(document).ready(function(){
+  $("#email_form").submit(function(e){
+    e.preventDefault();
+    
+    $(".holder").css("visibility","visible")
+    $(".popup_holder").css("visibility","hidden")
+    $('#podcast').trigger('play');
+
+    email = $("#email_input").val();
+  });
+});
+
+
+  if(email.length==0){
+    $(".holder").css("visibility","hidden")
+    $('#podcast').trigger('pause');
+  }else{
+    $(".holder").css("visibility","hidden")
+    $('#podcast').trigger('pause');
+  }
+ 
+
+
+  var podcast = document.getElementById("podcast");
+
+  podcast.addEventListener("play", function() {
+  var time = podcast.currentTime;
+  total_time=time
+  total_time = Math.round(total_time);
+  });
+
+  podcast.addEventListener("timeupdate", function() {
+  var time = podcast.currentTime;
+  total_time=time
+  
+  total_time = Math.round(total_time);
+  //console.log("Current time: " + total_time);
+  });
+
+  podcast.addEventListener("ended", function() {
+  var time = podcast.currentTime;
+  total_time=time
+  total_time = Math.round(total_time);
+  pass_data_to_server("VIDEO_COMPLETED");
+  });
+
+
+
+  addEventListener('beforeunload',(event) =>{
+      pass_data_to_server("BEFORE_UNLOAD_page_exit");
+  });
+
+
+
+  function pass_data_to_server(event="UNKNOWN"){
+      let formData = new FormData();
+
+      if(email.length==0)return;
+	  
+	  total_time = Math.round(total_time);
+	  
+      formData.append('camp_id',"CMOFirst-LP-FY23-WG-Inovalon-1-TY");
+      formData.append('firstname', 'LP-FY23-WG-Inovalon-1_VIDEO_STATS');
+      formData.append('data[0]', "Email:-"+email);
+      formData.append('data[1]', "Total Watch Time(Sec):-"+total_time);
+      formData.append('data[2]', "Event:-"+event);
+      fetch("https://resource.cmofirst.com/whitepaper/LP-FY23-WG-Inovalon-1-video_stats.php", {
+          keepalive: true, // navigator.sendBeacon replacement  = keepalive: true
+          method: 'post',
+          headers: {
+          //'content-type': 'application/json',
+          // any header you can pass here
+          },
+          body: formData,
+      });
+  }
+
+
+
+  function submit_qa(question=""){
+    
+	  
+	  var myKeyVals = { 'camp_id' : 'CMOFirst-LP-FY23-WG-Inovalon-1-TY', 'firstname' : 'LP-FY23-WG-Inovalon-1_QA', 'data[0]' : "Email:-"+email ,'data[1]' : "Question:-"+question}
+	  $.ajax({
+      type: 'POST',
+      url: "https://resource.cmofirst.com/whitepaper/LP-FY23-WG-Inovalon-1-submit_QA.php",
+      data: myKeyVals,
+      dataType: "text",
+      success: function(resultData) { $("#resp").html("Submitted"); }
+		});
+  }
+  
+  
+  
+  $(document).ready(function(){
+
+
+$("#q_a_submit").on("click",function(){
+const question=$("#q_a_input").val();
+if(question.length>0){
+submit_qa(question)
+}
+
+});
+
+
+});
+
+</script>
+
+
+          </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Holder end -->
+
+</div>
+
+
+<div class="col py-5 pt-4 footer" style="text-align:center;">
+                     
+                        <div class="mktoText text mt-4 ps-1" id="footer-text"><p><br>© 2023 CMOFirst - a brand owned and operated by Wego Media LLC.  All rights reserved.<br></p>
+<p>
+<a href="https://cmofirst.com/unsubscribe" target="_blank">Unsubscribe</a>  <br>
+<a href="https://cmofirst.com/privacy-policy/" target="_blank">CMOFirst Privacy Policy</a> | 
+<a href="https://www.inovalon.com/privacy-policy/" target="_blank">Inovalon Privacy Policy</a>
+</p></div>
+                    </div>
+
+
+
+
+
+</body>
+</html>

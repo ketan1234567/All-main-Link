@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PKT-IJP-SME-OP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- custome css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.min.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="contanier">
+            <div class="headerImg">
+                <h2>
+                   PKT-IJP-SME<br>
+				   <small>(Operations)</small>
+				   
+                </h2>
+                <img src="./banner-pkt.jpg" alt="img">
+            </div>
+            <form id="surveyForm">
+                <div id="step1" class="ste1Div">
+                    <div class="step1Textinput">
+                        <div class="form-row">
+                            <div class="input-data">
+                               <input type="text" class="inputForm"  id="empIdInput" name="emp_id" required>
+                               <div class="underline"></div>
+                               <label for="">Employee ID</label>
+                            </div>
+                         </div>
+                
+                         <div class="form-row">
+                            <div class="input-data">
+                               <input type="text" class="inputForm"  id="empNameInput" name="full_name" required>
+                               <div class="underline"></div>
+                               <label for="">Employee Name</label>
+                            </div>
+                         </div>
+                
+                         <div class="form-row">
+                            <div class="input-data">
+                               <input type="text" class="inputForm" id="empDepInput" name="department" required>
+                               <div class="underline"></div>
+                               <label for="">Department</label>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="btnCenter">
+                        <button class="countinueBtn" type="button" id="nextButton">Continue</button>
+                    </div>
+                </div>
+    
+                <!-- <div id="step2" style="display: none;"> -->
+                <div id="step2" class="ste2Div">
+                    <!-- <div class="timerDiv">
+                        <p>Timer: <span id="timer" style="color: Red;">05:00</span></p>
+                    </div> -->
+
+                    <div class="queIndicatorContainer">
+                        <div style="text-align: center;">
+                            <p class="queIndicator" id="queIndicator-1">
+                                1
+                            </p>
+                            <p class="queIndicator" id="queIndicator-2">
+                                2
+                            </p>
+                            <p class="queIndicator" id="queIndicator-3">
+                                3
+                            </p>
+                            <p class="queIndicator" id="queIndicator-4">
+                                4
+                            </p>
+                            <p class="queIndicator" id="queIndicator-5">
+                                5
+                            </p>
+                            <p class="queIndicator" id="queIndicator-6">
+                                6
+                            </p>
+                            <p class="queIndicator" id="queIndicator-7">
+                                7
+                            </p>
+                            <p class="queIndicator" id="queIndicator-8">
+                                8
+                            </p>
+                            <p class="queIndicator" id="queIndicator-9">
+                                9
+                            </p>
+                            <p class="queIndicator" id="queIndicator-10">
+                                10
+                            </p>
+                        </div>
+                       
+                     <div style="text-align: center;">
+                        <p class="queIndicator" id="queIndicator-11">
+                            11
+                        </p>
+                        <p class="queIndicator" id="queIndicator-12">
+                            12
+                        </p>
+                        <p class="queIndicator" id="queIndicator-13">
+                            13
+                        </p>
+                        <p class="queIndicator" id="queIndicator-14">
+                            14
+                        </p>
+                        <p class="queIndicator" id="queIndicator-15">
+                            15
+                        </p>
+						<p class="queIndicator" id="queIndicator-16">
+                            16
+                        </p>
+						<p class="queIndicator" id="queIndicator-17">
+                            17
+                        </p>
+			
+                     </div>
+                    </div>
+            
+                    <div id="questionContainer" class="questionContainer">
+
+                        
+                    </div>
+                    <!-- <textarea name="feedback" placeholder="Your feedback" ></textarea><br>
+                    <input type="text" name="q1" placeholder="q1" ><br> -->
+                    <div class="btnCenter ">
+                        <button type="button" class="submitBtn" id="preBtn">Previous</button>
+                        <button type="button" class="submitBtn" id="nextBtn">Next</button>
+                        <button type="submit" class="submitBtn" id="submitButton" style="display: none;">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.min.js"></script>
+    <script src="survey.js"></script>
+</body>
+</html>

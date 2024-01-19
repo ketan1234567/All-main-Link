@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="api.php" method="POST">
+
+        <div>
+            <div>What sort of system do you require?</div>
+           
+
+            <select name="1458" id="1458">
+                <option value="13702">Complete EPOS system (Cash Register)</option>
+                <option value="13703">Mobile or tablet EPOS (mPos)</option>
+                <option value="13704">Just EPOS software</option>
+                <option value="13705">Other/Unsure, please advise</option>
+
+            </select>
+        </div>
+
+        <div class="13703-depentent-holder">
+            <div>How many terminals will you require?</div> 
+            
+
+            <select name="1452" id="1452">
+                <option value="13683">1-2</option>
+                <option value="13684">3 or more</option>
+            </select>
+        </div>
+
+
+        <div>
+            <div>What is your activity?</div>  
+            
+
+            <select name="943" id="943">
+                
+<option value="7784">Hospitality</option>
+<option value="7785">Retail</option>
+<option value="7786">Other</option>
+
+            </select>
+        </div>
+
+
+        <div>
+            <div>What is the postcode of your company?</div>
+            
+
+            <!-- 
+CW3 9SS
+SE5 0EG
+SE50EG
+se5 0eg
+WC2H 7LT 
+-->
+           <input type="text" name="425" id="425" pattern="/^([Gg][Ii][Rr] 0[Aa]{2})|(([A-Za-z][0-9]{1,2})|(([A- Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])| ([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z])))) ?[0-9][A-Za-z]{ 2})$/" required/>
+        </div>
+
+
+        <div>
+            <div>Your email address</div>
+            
+
+           <input type="text" name="email" id="email" pattern="/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,63})$/i" required/>
+        </div>
+
+        <div>
+            <div>Telephone no.</div>
+            
+
+           <input type="text" name="phone" id="phone"
+           
+          
+          
+           
+           required/>
+        </div>
+
+
+        
+        <div>
+            <div>Company name</div>
+            
+
+           <input type="text" name="companyName" id="companyName" 
+           required/>
+        </div>
+
+
+
+
+        <div>
+            <div>What is your legal form ? </div>
+            
+
+            <select name="segment" id="segment">
+                
+                <option value="1">Company created</option>
+                <option value="CREA">Company in the process of being registered</option>
+                <option value="PROJ">Planning to start a business</option>
+                <option value="3">Sole Trader / Professional</option>
+                <option value="4">Other type of organisation</option>
+                <option value="2">Public Sector (e.g.: School, Council, etc.)</option>
+                
+
+            </select>
+        </div>
+
+
+
+
+        <div>
+            <div>First Name</div>
+            
+
+           <input type="text" name="firstname" id="firstname" pattern="^[a-zA-Z áÁàÀâÂäÄãÃåÅæÆçÇéÉèÈêÊëËíÍìÌîÎïÏñÑóÓòÒôÔöÖõÕøØœŒßúÚùÙûÛüÜ\-']+$" required/>
+        </div>
+
+
+        <div>
+            <div>Last Name</div>
+            
+
+           <input type="text" name="lastname" id="lastname" pattern="^[a-zA-Z áÁàÀâÂäÄãÃåÅæÆçÇéÉèÈêÊëËíÍìÌîÎïÏñÑóÓòÒôÔöÖõÕøØœŒßúÚùÙûÛüÜ\-']+$" required/>
+        </div>
+
+
+        <div>
+            <div>address</div>
+            
+
+            <textarea name="address" id="address"
+             >            </textarea>
+        
+        </div>
+
+
+
+        <div>
+            <input type="submit" value="submit">
+        </div>
+
+
+    </form>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+
+        $(document).ready(function(){
+            $(".13703-depentent-holder").hide()
+            $('[name="1452"]').prop("required",false)
+            $('[name="1458"]').on("change",function(){
+                if($(this).val()=="13703"){
+                    $(".13703-depentent-holder").show()
+
+                    $('[name="1452"]').prop("required",true)
+                }else{
+                    $(".13703-depentent-holder").hide()
+                    $('[name="1452"]').prop("required",false)
+                }
+            })
+        })
+    </script>
+</body>
+</html>
